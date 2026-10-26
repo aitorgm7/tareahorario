@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+}
+
+nav{
+    background-color: #e2a9f1;
+    padding: 30px;
+    display: flex;           /* ← los hijos dejan de ser inline */
+    align-items: center;     /* centra verticalmente */
+    gap: 130px;               /* separación entre enlaces (sustituye left:200px) */
+}
+
+a{
+    display: flex;           /* en vez de inline-block */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #e48ffa;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+    height: 80px;
+    width: 200px;
+    /* quita position:relative y left:200px */
+}
+
+a:hover{
+    color: #e2a9f1;
+    background-color: #9440a9;
+}
+
+#home{
+    color: white;
+    border-radius: 25%;
+    width: 80px;             /* ya no necesitas left:0 */
+}
+
+#uso{
+    color: #600079;
+}
+
+img{
+    width: 100%;
+    display: block;          /* ← elimina el hueco bajo la imagen */
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin-top: 70px;
+}
+
+td, th{
+    border: 2px solid #e48ffa;
+}
+
+th{
+    background-color: #e2a9f1;
+    color: white;
+    padding: 10px;
+}
+td{
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+}
+
+select{
+    margin: 0%;
+    width: 48%;
+    border: 0px;
+    font-size: 80%;
+    color: #e48ffa;
+    font-weight: bold;
+}
+
+input{
+    position: relative;
+    top: 10px;
+    float: right;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #e48ffa;
+    background-color: #e2a9f1;
+    color: white;
+}
