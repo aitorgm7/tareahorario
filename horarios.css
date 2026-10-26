@@ -55,6 +55,10 @@ form{
     margin-top: 70px;
 }
 
+h1{
+    color: #e48ffa;
+}
+
 td, th{
     border: 2px solid #e48ffa;
 }
@@ -69,6 +73,8 @@ td{
     margin: 0px;
     padding: 0px;
     width: 200px;
+    color: #e48ffa;
+    font-weight: bold;
 }
 
 select{
